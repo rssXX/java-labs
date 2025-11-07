@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 
-public class Example1 {
+public class task1 {
     public static String getInput(Scanner scanner, String quest) {
         System.out.print(quest);
         return scanner.nextLine();
