@@ -2,7 +2,7 @@ package lr1;
 
 import java.time.Year;
 
-public class task7 {
+public class Example12 {
     public static void main(String[] args) {
         int age = InputHelper.getInputInt("Введите свой возраст: ");
         int year = Year.now().getValue();

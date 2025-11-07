@@ -1,8 +1,6 @@
 package lr1;
 
-import lr1.InputHelper;
-
-public class task3 {
+public class Example8 {
     public static void main(String[] args) {
         int dayWeek = InputHelper.getInputInt("Введите день недели: ");
         String month = InputHelper.getInputString("Введите название месяца: ");

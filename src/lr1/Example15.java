@@ -1,6 +1,6 @@
 package lr1;
 
-public class task10 {
+public class Example15 {
     public static void main(String[] args) {
         int a = InputHelper.getInputInt("Введите первое число: ");
         int b = InputHelper.getInputInt("Введите второе число: ");

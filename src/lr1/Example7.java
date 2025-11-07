@@ -1,8 +1,6 @@
 package lr1;
 
-import lr1.InputHelper;
-
-public class task2 {
+public class Example7 {
     public static void main(String[] args) {
         String name = InputHelper.getInputString("Введите своё имя: ");
         int age = InputHelper.getInputInt("Введите свой возраст: ");
