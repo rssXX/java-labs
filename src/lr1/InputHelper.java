@@ -12,6 +12,12 @@ public class InputHelper {
 
     public static int getInputInt(String quest) {
         System.out.print(quest);
-        return scanner.nextInt();
+        while (!scanner.hasNextInt()) {
+            System.out.print("Введите целое число: ");
+            scanner.next();
+        }
+        int value = scanner.nextInt();
+        scanner.nextLine();
+        return value;
     }
 }
